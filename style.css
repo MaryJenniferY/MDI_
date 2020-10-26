@@ -1,0 +1,894 @@
+div{
+    overflow: hidden;
+}
+
+
+
+@font-face {
+  font-family: logoFont;
+  src: url(tt0010m_.ttf);
+}
+
+@font-face {
+  font-family: logoFont1;
+  src: url(tt0009m_.ttf);
+}
+
+.logo{
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 7px 4px 0;
+    color: #466db0ff;
+    font-family: logoFont;
+    
+}
+
+.logo h2{
+    font-size: 20px;
+    
+}
+
+.line{
+    display: inline-block;
+    border-left: solid 3px #2957a4ff;
+    height: 63px;
+    margin-top: 11.5px;
+}
+
+nav{
+    background: rgba(255,255,255,0.55);
+}
+
+.mainpage{
+    background: url('MDI%20Assets-02.jpg') top right;
+    background-size: cover;
+}
+
+.mainp1{
+    position: relative;
+    top: 320px;
+    font-family: logoFont;
+    color: white;
+}
+
+.mainp1 h3{
+    width: 92%;
+    border-top: solid 3px white;
+    color: #fefe00ff;
+    padding-top: 15px;
+}
+
+.mainp2{
+    background: #374584ff;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    font-family: logoFont1;
+    padding: 30px 30px 10px;
+    color: white;
+
+}
+
+.mainp2 h1{
+    font-weight: 900;
+}
+
+.mainp2 h3{
+    margin: 20px 0;
+    border-top: solid 2px white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.mainp2 button{
+    background: #ffff01ff;
+    
+    color: #374584ff;
+}
+
+.mainp2 button h2{
+    font-size: 20px;
+    margin:0;
+    font-weight:bolder;
+}
+
+.pg1head{
+    background: #374584ff;
+    width: 182px;
+    padding: 5px 15px 1px 15px;
+    border-radius: 20px;
+    color: white;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+
+.pg1head h1{
+    font-family: logoFont;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-family: logoFont1;
+    text-align: center;
+}
+
+/*page 1*/
+
+.page1{
+    margin-top: 90px;
+}
+
+.page1 h2{
+    text-align: center;
+    font-family: logoFont;
+    font-size: 25px;
+}
+
+.bankname{
+    display: inline-block;
+    border: solid 2px #374584ff;
+    padding: 6px 20px 0px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.bankname h1{
+    font-family: logoFont;
+    font-size: 20px;
+}
+
+.page1{
+    text-align: center;
+}
+
+.page2{
+    margin-top: 50px;
+    background: #e6e6e6ff;
+    padding: 40px;
+    text-align: center;
+    font-family: logoFont;
+}
+
+.page3{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.steps{
+    background: url(MDI%20Assets-05.png) center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-top: 50px;
+}
+
+.steps p{
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    font-size: 2.2vh;
+}
+
+.steps .procedure1{
+    top: 3%;
+}
+
+.steps .procedure2{
+    top: 13%;
+}
+.steps .procedure3{
+    top: 21%;
+}
+.steps .procedure4{
+    top: 32%;
+}
+.steps .procedure5{
+    top: 43%;
+}
+.steps .procedure6{
+    top: 54%;
+}
+
+.page4{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.achieve {
+    width: 80%;
+    border-top: solid 2px #374584ff;
+    margin : 0 auto 50px;
+    padding-top: 40px;
+}
+
+.achievement{
+    display: inline-block;
+    padding: 0 35px;
+    color: #374584ff;
+}
+
+.achievement h2{
+    font-family: logoFont;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.achievement h4{
+    font-family: logoFont1;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.ach2{
+    border-left: solid 2px #374584ff;
+    border-right: solid 2px #374584ff;
+}
+
+.roles{
+    background: #e6e6e6ff;
+    width: 85%;
+    margin: 70px auto 60px;
+    padding: 30px 40px;
+    box-shadow: 2px 2px 10px #333;
+}
+
+.roles h2{
+    color: #374584ff;
+    font-family: logoFont;
+    margin-bottom: 20px;
+}
+
+.role{
+    font-weight: 600;
+}
+
+.roles p{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.roleper{
+    margin-top: 20px;
+    padding: 20px 50px 0;
+    border-top: solid 2px #374584ff;
+}
+
+.roleper h3{
+    font-family: logoFont1;
+    font-size: 16px;
+    
+}
+
+.page5{
+    background: #374584ff;
+    color: white;
+    text-align: center;
+}
+
+.page5 .b1{
+    display: inline-block;
+    margin: 50px 20px 30px;
+    padding: 10px 35px;
+    background: white;
+    color: #374584ff;
+    border-radius: 70px;
+}
+
+.page5 .b1 h2{
+    font-family: logoFont;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.page5 .b2{
+    margin: 0 auto 40px;
+    padding: 10px 15px;
+    display: inline-block;
+    border: solid 2px white;
+    border-radius: 13px;
+}
+
+.page5 .b2 h2{
+    font-family: logoFont1;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.rec{
+    background: white;
+    padding: 30px;
+}
+
+.page5 h5{
+    font-family: logoFont1;
+    font-size: 18px;
+    margin: 40px 0 20px;
+    padding: 0 20px;
+}
+
+.page5 .copy{
+    padding-bottom: 5px;
+}
+
+/*graph 1*/
+
+
+
+@-keyframes grow-75{
+   from { right: 100%; }
+   to   { right: 45%; }
+}
+
+@-webkit-keyframes grow-75{
+   from { right: 100%; }
+   to   { right: 45%; }
+}
+
+@-keyframes grow-50{
+   from { right: 100%; }
+   to   { right: 20%; }
+}
+
+@-webkit-keyframes grow-50 {
+   from { right: 100%; }
+   to   { right: 20%; }
+}
+
+
+
+
+#skills {
+  margin: 60px auto 0;
+  position: relative;
+  width: 98%;  
+    overflow: visible;
+    height: 170px;
+}
+
+#apps {
+  float: left;
+  text-align: right;
+  width: 19%;
+}
+
+#apps p {
+  padding:  0;
+  position: relative;
+  text-align: right;
+  z-index: 2;
+    margin: 15px 10 32px;
+    font-weight: 600;
+}
+
+#scale {
+  padding-bottom: 90px;
+  position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    overflow: visible;
+}
+
+#scale p {
+  position: absolute;
+    bottom: 0px;
+    left: -0.30%;
+    overflow: visible;
+}
+
+#scale p.one { left: 24%; }
+#scale p.two { left: 49%; }
+#scale p.three { left: 74%; }
+#scale p.four { left: 99%; }
+
+.grid {
+  border-left: 1px dotted #374584ff;
+  border-bottom: 1px dotted #374584ff;
+  float: left;
+  padding: 10px 0;
+  position: relative;
+  width: 75%;
+  overflow: visible;
+}
+
+.bar {
+  float: left;
+  height: 35px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.bar .inner {
+  background-color: #374584ff;
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+
+
+.bar.pct-75 .inner {  
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: grow-75;
+  right: 45%;
+}
+
+.bar.pct-50 .inner {  
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: grow-50;
+  right: 20%;
+}
+
+.v-divider {
+  border-right: 1px dotted #374584ff;
+  position: absolute;
+  left: 0;
+  right: 25%;
+  bottom: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.v-divider.one { right: 75%; }
+.v-divider.two { right: 50%; }
+
+
+.bar1, .bar2{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bar1{
+    left: 75px;
+}
+.bar2{
+    left: 280px;
+}
+
+.progress-bar{
+    background: #374584ff;
+    height: 25px;
+    border-radius: 30px;
+    
+}
+
+.progress{
+    height: 25px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 4px #333;
+}
+
+.roleper h5{
+    margin-top: 10px;
+}
+
+/*caraousel*/
+.logo-slider {
+	background: white;
+	-webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+	box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.logo-slider::before, .logo-slider::after {
+	background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
+	background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+	content: "";
+	height: 175px;
+	position: absolute;
+	width: 200px;
+	z-index: 2;
+}
+
+.logo-slider::after {
+	right: 0;
+	top: 0;
+	-webkit-transform: rotateZ(180deg);
+	transform: rotateZ(180deg);
+}
+
+.logo-slider::before {
+	left: 0;
+	top: 0;
+}
+
+.logo-slider .logo-slide-track {
+	-webkit-animation: logo-scroll 10s linear infinite;
+	animation: logo-scroll 10s linear infinite;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: calc(250px * 14);
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.logo-slider .logo-slide-track2 {
+	-webkit-animation: logo-scroll 60s reverse infinite;
+	animation: logo-scroll 60s linear reverse infinite;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: calc(250px * 14);
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.logo-slider .slide {
+	height: 150px;
+	width: 250px;
+	padding: 20px;
+}
+
+@-webkit-keyframes logo-scroll {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+		-webkit-transform: translateX(calc(-250px * 7));
+		transform: translateX(calc(-250px * 7));
+	}
+}
+
+@keyframes logo-scroll {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+		-webkit-transform: translateX(calc(-250px * 3));
+		transform: translateX(calc(-250px * 3));
+	}
+}
+
+/*---------------Mobile UI-----------------*/
+/*---------------Mobile UI-----------------*/
+
+@media only screen and (max-width: 600px) {
+    
+    .mainpage{
+     background-repeat: no-repeat;
+     background-size: auto 700px;
+}
+    
+    .mainp2{
+    background: #374584ff;
+    position: relative;
+    bottom: -70px;
+    color: white;
+        width: 80%;
+        margin: 0 auto;
+}
+    .mainp1{
+    position: relative;
+    top: 90px;
+}
+    
+    .mainpage{
+    height: auto;
+}
+    .mform{
+        height: 920px;
+    }
+    
+    .navbar img{
+        width: 60%;
+    }
+    .line{
+    display: inline-block;
+    border-left: solid 2.5px #2957a4ff;
+    height: 43px;
+    margin-top: 6px;
+}
+    .logo h2{
+    font-size: 15px;
+    margin-top: -2px;
+}
+    .navbar{
+        padding: 0;
+    }
+    
+    .page1{
+    margin-top: 50px;
+}
+    
+    .condition p{
+        text-align:left;
+    }
+    
+    
+    .bankname{
+    
+    padding: 5px 7px 0px;
+    
+    margin: 0px;
+}
+
+.bankname h1{
+    font-size: 13px;
+}
+    
+    .page3{
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    
+    .steps p{
+        width: 80%;
+        font-size: 1.3vh;
+        display: none;
+    }
+    
+    .steps{
+        height: 300px;
+        background: url(mob.png) center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 0;
+    }
+    
+    .steps .procedure1{
+    top: 17%;
+}
+
+.steps .procedure2{
+    top: 23%;
+}
+.steps .procedure3{
+    top: 29%;
+}
+.steps .procedure4{
+    top: 37%;
+}
+.steps .procedure5{
+    top: 44%;
+}
+.steps .procedure6{
+    top: 51%;
+}
+    .page4{
+        overflow: visible;
+    }
+
+    .achieve{
+        width: 100%;
+        margin-top: -20px;
+        
+    }
+    
+    .achievement{
+    display: inline-block;
+    padding: 0 10px;
+    color: #374584ff;
+}
+
+.achievement h2{
+    
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.achievement h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+    
+    
+#apps {
+  float: left;
+  text-align: right;
+  width: 15%;
+}
+
+#apps p {
+  padding:  0;
+  position: relative;
+  text-align: right;
+  z-index: 2;
+    margin: 6px 10 20px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+#scale {
+  padding-bottom: 40px;
+  position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+}
+
+#scale p {
+  position: absolute;
+    bottom: 0;
+    left: -0.30%;
+}
+
+#scale p.one { left: 24%; }
+#scale p.two { left: 49%; }
+#scale p.three { left: 74%; }
+#scale p.four { left: 99%; }
+
+.grid {
+  border-left: 1px dotted #374584ff;
+  border-bottom: 1px dotted #374584ff;
+  float: left;
+  padding: 10px 0;
+  position: relative;
+  width: 75%;
+    overflow: visible;
+}
+
+.bar{
+  float: left;
+  height: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.bar .inner {
+  background-color: #374584ff;
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+
+
+.bar.pct-75 .inner {  
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: grow-75;
+  right: 45%;
+}
+
+.bar.pct-50 .inner {  
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: grow-50;
+  right: 20%;
+}
+
+.v-divider {
+  border-right: 1px dotted #374584ff;
+  position: absolute;
+  left: 0;
+  right: 25%;
+  bottom: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.v-divider.one { right: 75%; }
+.v-divider.two { right: 50%; }
+
+
+.bar1, .bar2{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.bar1{
+    left: 35px;
+}
+.bar2{
+    left: 105px;
+}
+
+    #skills{
+        height: 170px;
+        overflow: visible;
+    }
+    .roles{
+        margin-top: 0;
+        padding: 10px;
+    }
+    
+    .pg1head{
+    background: #374584ff;
+    width: 182px;
+    padding: 5px 5px 1px 5px;
+    border-radius: 20px;
+    color: white;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+
+.pg1head h1{
+    font-family: logoFont;
+    font-size: 20px;
+    font-weight: 600;
+}
+    
+    .page2 .pg1head{
+        width: 245px;
+        text-align: center;
+    }
+    
+    .roles p{
+    font-size: 12px;
+        width: 100%;
+}
+    
+    .roles h2{
+        font-size: 22px;
+    }
+    
+    .progress-bar{
+    background: #374584ff;
+    height: 20px;
+    border-radius: 30px;
+    
+}
+
+.progress{
+    height: 20px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 4px #333;
+}
+
+.roleper h5{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+ .roleper h3{
+    
+    font-size: 15px;
+}
+    
+    .page5 .b1{
+    
+    margin: 20px 20px 30px;
+    
+}
+
+
+.page5 .b2{
+    margin: 0 auto 20px;
+}
+    
+    .logo-slider .slide {
+	height: 100px;
+	width: 133.3px;
+	padding: 10px;
+       
+}
+    .logo-slider .slide img{
+     height: 90px;
+	width: 120px;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width: 700px){
+    .page2 .pg1head{
+    width: 368px;
+}
+}
+
+
